@@ -1,0 +1,87 @@
+//===================================
+  NAVBAR STYLES
+  ======================================
+
+@import "navbar.sass"
+
+//=====================================
+  BACKGROUND
+  ====================================
+
+body
+  color: #000
+  font-family: "Roboto", sans-serif
+  background: #c6caed
+  background: -moz-linear-gradient(-45deg, #c6caed 7%, #4a547b 100%)
+  background: -webkit-linear-gradient(-45deg, #c6caed 7%, #4a547b 100%)
+  background: linear-gradient(135deg, #c6caed 7%, #4a547b 100%)
+//===================================
+  BLOG FONTS
+  ===================================
+
+h1
+  margin-top: 150px
+  margin-bottom: 200px
+  display: flex
+  justify-content: center
+  align-items: center
+  font-weight: 300
+  font-size: 64px
+  color: #fff
+  text-transform: capitalize
+
+h2
+  font-weight: 300
+  font-size: 48px
+  margin: 15px auto 25px auto
+
+.date
+  margin: 15px auto
+//=================================
+  POST PREVIEWS STYLES
+  =================================
+
+img
+  margin-bottom: 8px
+
+a img
+  filter: hue-rotate(180deg)
+  transition: all 0.6s ease-in 0.3s
+  &:hover
+    filter: none
+
+.post-previews
+  display: flex
+  justify-content: center
+  align-items: center
+
+.post-right
+  margin-left: 1.5%
+
+.post div
+  margin: 6px
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+
+//=================================
+  SINGLE POST STYLES
+  =================================
+
+.single-post
+  display: flex
+  justify-content: center
+  align-items: center
+  div
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 20px 15px
+
+//=============================
+  FOOTER
+  =============================
+
+@import "footer.sass"
